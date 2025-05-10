@@ -1,0 +1,17 @@
+:root {
+  --primary-colour-blue: rgba(13, 61, 165, 1);
+  --secondary-colour-yellow: rgba(214, 179, 21, 1);
+
+  /* TERTIARY COLOURS */
+  --tertiary-colour-deep-blue:rgba(3, 9, 21, 1);
+  --tertiary-colour-white:rgba(246, 249, 255, 1);
+  --tertiary-colour-black:rgba(3, 9, 21, 1);
+
+  /* SHADE COLOURS */
+  --blue-shade:rgba(244, 247, 255, 1);
+  --blue-shade-outline:rgba(209, 218, 238, 1);
+  --orange-shade: rgba(255, 246, 243, 1);
+
+  /* BACKGROUND COLOUR */
+  --backgorund-colour:rgba(255, 255, 255, 1);
+}

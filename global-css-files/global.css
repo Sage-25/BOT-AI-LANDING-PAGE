@@ -1,0 +1,93 @@
+p,
+h1,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: Space Grotesk;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: var(--backgorund-colour);
+}
+
+/* NAVIGATION SECTION */
+header {
+  /* display: flex;
+  justify-content: center; */
+  background-color: var(--primary-colour-blue);
+  border: 0.031rem solid rgba(20, 77, 199, 1);
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  padding-block: 1.25rem;
+  margin-inline: 11.4%;
+  /* margin-inline: 12.5rem; */
+  /* max-width: 75rem; */
+}
+
+.logo-container {
+  margin-inline-end: auto;
+}
+
+.nav-button-container {
+  display: flex;
+  gap: 0.75rem;
+}
+
+/* BUTTONS */
+.outline-button-white {
+  background-color: transparent;
+  color: white;
+  border: 0.063rem solid var(--tertiary-colour-white);
+  border-radius: 3.125rem;
+  padding-inline: 1.5rem;
+  padding-block: 0.625rem;
+}
+
+.filled-button-white {
+  background-color: var(--tertiary-colour-white);
+  color: var(--primary-colour-blue);
+  border: 0 solid;
+  border-radius: 3.125rem;
+  padding-inline: 1.5rem;
+  padding-block: 0.625rem;
+}
+
+.filled-button-blue {
+  background-color: var(--primary-colour-blue);
+  color: var(--tertiary-colour-white);
+  border: 0 solid;
+  border-radius: 3.125rem;
+  padding-inline: 1.5rem;
+  padding-block: 0.625rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--tertiary-colour-black);
+}
+
+.divider-main {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 1.5rem 1rem;
+  margin-inline: 11.4%;
+  color: rgba(127, 140, 166, 1);
+}
+
+.divider-second-section {
+  display: flex;
+  gap: 1.25rem;
+}
