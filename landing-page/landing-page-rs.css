@@ -1,0 +1,93 @@
+@media (max-width: 1027px) {
+.hero-main {
+  gap: 5rem;
+}
+
+.third-main {
+  gap: 5rem;
+}
+
+.fourth-main {
+  gap: 5rem;
+}
+
+.fourth-image-container {
+  max-width: 0;
+}
+}
+
+@media (max-width: 850px) {
+  .hero-main {
+  grid-template-columns: none;
+  gap: 3rem;
+  padding-block: 5rem;
+}
+
+.hero-header {
+  font-size: 1.875rem;
+}
+
+.hero-illustration-container {
+  max-width: none;
+}
+
+.second-main {
+  grid-template-columns: none;
+  gap: 3rem;
+}
+
+.third-main {
+  grid-template-columns: none;
+  gap: 3rem;
+  padding-block: 3rem;
+}
+
+.third-tc-header {
+  font-size: 1.875rem;
+}
+
+.third-section-illustration-container {
+  max-width: none;
+}
+
+.fourth-main {
+  grid-template-columns: none;
+  gap: 0;
+  padding-block: 3rem;
+}
+
+.fourth-image-container {
+  display: none;
+}
+
+.light-blue-straight-line {
+  display: none;
+}
+
+.blue-straight-line {
+  display: none;
+}
+
+.fifth-main {
+  padding-block: 3rem;
+}
+
+.fifth-content-main {
+  grid-template-columns: none;
+  gap: 3rem;
+}
+
+.divider-section-container {
+  grid-template-columns: none;
+  gap: 2rem;
+}
+
+.sixth-top-section {
+  grid-template-columns: none;
+  gap: 2rem;
+}
+
+.sixth-main {
+  padding-block: 3rem;
+}
+}

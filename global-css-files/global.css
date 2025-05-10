@@ -53,6 +53,12 @@ nav {
   border-radius: 3.125rem;
   padding-inline: 1.5rem;
   padding-block: 0.625rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.outline-button-white:hover {
+  background-color: rgba(255, 255, 255, 10%);
 }
 
 .filled-button-white {
@@ -62,6 +68,12 @@ nav {
   border-radius: 3.125rem;
   padding-inline: 1.5rem;
   padding-block: 0.625rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.filled-button-white:hover {
+  background-color: rgb(232, 236, 247);
 }
 
 .filled-button-blue {
@@ -71,6 +83,12 @@ nav {
   border-radius: 3.125rem;
   padding-inline: 1.5rem;
   padding-block: 0.625rem;
+  cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.filled-button-blue:hover {
+  background-color: rgb(21, 84, 221);
 }
 
 /* FOOTER */
@@ -80,7 +98,7 @@ footer {
 
 .divider-main {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   align-items: center;
   padding: 1.5rem 1rem;
   margin-inline: 11.4%;
@@ -90,4 +108,22 @@ footer {
 .divider-second-section {
   display: flex;
   gap: 1.25rem;
+  margin-inline-end: auto;
+}
+
+/* RESPONSIVE VIEW */
+@media (max-width: 1027px) {
+  nav {
+    margin-inline: 0;
+}
+
+.divider-main {
+  margin-inline: 0;
+}
+}
+
+@media (max-width: 850px) {
+  nav .outline-button-white {
+    display: none;
+  }
 }
