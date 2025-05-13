@@ -111,6 +111,21 @@ footer {
   margin-inline-end: auto;
 }
 
+.privacy-policy,
+.terms-conditions,
+.faq {
+  color: rgba(127, 140, 166, 1);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.privacy-policy:hover,
+.terms-conditions:hover,
+.faq:hover {
+  color: var(--tertiary-colour-white);
+}
+
 /* RESPONSIVE VIEW */
 @media (max-width: 1027px) {
   nav {

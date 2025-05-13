@@ -1,0 +1,118 @@
+.faq {
+  color: var(--tertiary-colour-white);
+}
+
+.hero-section {
+  display: grid;
+  justify-content: center;
+  background-color: var(--primary-colour-blue);
+}
+
+.hero-main {
+  display: column;
+  align-items: center;
+  text-align: center;
+  padding-block: 2rem 2rem;
+  margin-inline: 1rem;
+  max-width: 90rem;
+}
+
+.privacy-header {
+  color: var(--tertiary-colour-white);
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-block-end: 0.313rem;
+}
+
+.privacy-body {
+  color: rgba(128, 166, 248, 1);
+}
+
+/* TOGGLE SECTION */
+.toggle-container {
+  display: grid;
+  justify-content: start;
+  margin-block: 1.875rem;
+}
+
+.toggle-container-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 0.313rem;
+  padding: 0.313rem;
+  border: 0.031rem solid rgba(232, 237, 242, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0.75rem;
+}
+
+.active-toggle {
+  background-color: var(--primary-colour-blue);
+  padding: 0.625rem 0.625rem;
+  border-radius: 0.375rem;
+}
+
+.toggle-customers {
+  font-size: 0.75rem;
+  color: var(--tertiary-colour-white);
+  text-align: center;
+}
+
+.inactive-toggle {
+  background-color: white;
+  padding: 0.625rem 0.625rem;
+  border-radius: 0.375rem;
+}
+
+.toggle-partners {
+  font-size: 0.75rem;
+  color: rgba(103, 115, 126, 1);
+  text-align: center;
+}
+
+/* SECOND SECTION */
+.second-section {
+  display: grid;
+  justify-content: center;
+}
+
+.second-main {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+  margin-inline: 1rem;
+  padding-block: 2.5rem 6rem;
+  max-width: 90rem;
+}
+
+hr {
+  border: 0.031rem solid rgba(232, 237, 242, 1);
+}
+
+.faq-container-main {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 2rem;
+}
+
+.faq-content-section {
+  display: grid;
+  gap: 2rem;
+}
+
+.faq-header {
+  color: var(--tertiary-colour-black);
+  font-size: 1.25rem;
+}
+
+.faq-header-top {
+  color: var(--tertiary-colour-black);
+  font-size: 1.25rem;
+  margin-block-end: 1rem;
+}
+
+.faq-body {
+  color: rgba(99, 101, 106, 1);
+}
+
