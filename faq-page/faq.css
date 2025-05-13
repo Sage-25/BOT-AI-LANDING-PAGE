@@ -50,6 +50,12 @@
   background-color: var(--primary-colour-blue);
   padding: 0.625rem 0.625rem;
   border-radius: 0.375rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.active-toggle:hover {
+  background-color: rgb(30, 82, 194);
 }
 
 .toggle-customers {
@@ -62,6 +68,12 @@
   background-color: white;
   padding: 0.625rem 0.625rem;
   border-radius: 0.375rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.inactive-toggle:hover {
+  background-color: rgb(248, 250, 253);
 }
 
 .toggle-partners {
